@@ -1,55 +1,113 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00BFFF&height=120&section=header"/>
+# 🎮 Nebula
 
-<h1 align="center">🎮 Nebula — Minigame Interativo com Python</h1>
+Projeto acadêmico desenvolvido em equipe durante o curso Técnico em Desenvolvimento de Sistemas no SENAI, utilizando Python e Pygame para criação de um minigame educacional baseado em perguntas e respostas.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pygame-2.0-green?style=for-the-badge&logo=pygame&logoColor=white" />
-  <img src="https://img.shields.io/badge/Projeto-SENAI-red?style=for-the-badge" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=500&color=00BFFF&center=true&vCenter=true&width=500&lines=Um+minigame+educativo+em+Python;Aprenda+brincando+com+Python!;Desenvolvido+com+Pygame+%F0%9F%94%A5" />
-</p>
+O projeto foi concebido com o objetivo de aplicar conceitos de programação, lógica de desenvolvimento e construção de interfaces gráficas em Python de forma prática e interativa.
 
 ---
 
-## 🕹️ Sobre o Projeto
+## 📚 Contexto
 
-**Nebula** é um minigame interativo desenvolvido como parte do curso de **Desenvolvimento de Sistemas** no **SENAI**. Criado com **Python** e **Pygame**, o jogo apresenta um sistema de perguntas e respostas sobre programação Python, com uma interface gráfica simples e divertida — tudo em uma única tela interativa.
+Nebula foi desenvolvido como atividade acadêmica durante a formação técnica em Desenvolvimento de Sistemas.
+
+O projeto combina elementos de gamificação e aprendizagem, apresentando desafios em formato de perguntas e respostas sobre conceitos de programação.
+
+---
+
+## 🎯 Objetivo
+
+Desenvolver uma aplicação interativa capaz de:
+
+* Aplicar conceitos fundamentais de programação em Python;
+* Explorar o desenvolvimento de interfaces gráficas com Pygame;
+* Implementar lógica de navegação entre telas;
+* Criar uma experiência educacional baseada em gamificação.
 
 ---
 
 ## ✨ Funcionalidades
 
-- 🎬 Menu inicial com opções clicáveis  
-- ❓ Quiz de perguntas e respostas sobre Python  
-- 🧠 Jogabilidade simples e intuitiva  
-- 🖼️ Interface gráfica com **Pygame**  
-- 🎨 Elementos visuais criados no **Photoshop**
+* Menu inicial interativo;
+* Sistema de perguntas e respostas;
+* Navegação entre telas;
+* Interface gráfica desenvolvida com Pygame;
+* Sistema de pontuação e interação com o usuário;
+* Elementos visuais produzidos para o projeto.
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+## 🖥️ Tecnologias Utilizadas
 
-- 🐍 **Python**
-- 🎮 **Pygame**
-- 🖌️ **Photoshop** (para criação de cenários e sprites)
+* Python
+* Pygame
+* Photoshop (criação de elementos visuais)
+* Programação Orientada a Objetos
 
 ---
 
-## 🚀 Como Jogar
+## 📂 Estrutura do Projeto
+
+```text
+nebula/
+├── Projeto Nebula Minigame/
+│   ├── assets/
+│   ├── imagens/
+│   ├── sons/
+│   ├── main.py
+│   └── demais arquivos do jogo
+└── README.md
+```
+
+---
+
+## 🚀 Como Executar
+
+1. Clone o repositório:
 
 ```bash
-# 1. Clone o repositório
-git clone https://github.com/seu-usuario/nebula-minigame
+git clone https://github.com/arthurcfranklin/nebula.git
+```
 
-# 2. Acesse a pasta
-cd nebula-minigame
+2. Acesse o diretório do projeto:
 
-# 3. Instale as dependências
-pip install -r requirements.txt
+```bash
+cd nebula
+```
 
-# 4. Execute o jogo
+3. Instale as dependências:
+
+```bash
+pip install pygame
+```
+
+4. Execute a aplicação:
+
+```bash
 python main.py
+```
 
+---
+
+## 🧠 Conceitos Aplicados
+
+* Lógica de Programação
+* Estruturas Condicionais
+* Estruturas de Repetição
+* Manipulação de Eventos
+* Desenvolvimento de Jogos 2D
+* Programação Orientada a Objetos
+* Interfaces Gráficas
+
+---
+
+## 👥 Equipe
+
+Projeto desenvolvido em equipe durante o curso Técnico em Desenvolvimento de Sistemas no SENAI.
+
+Contribuidores registrados no repositório participaram do desenvolvimento da aplicação e dos recursos utilizados no projeto.
+
+---
+
+## 📄 Sobre o Projeto
+
+Nebula representa uma das primeiras experiências práticas com desenvolvimento de aplicações gráficas em Python, servindo como marco da evolução acadêmica e técnica durante a formação em Desenvolvimento de Sistemas.
