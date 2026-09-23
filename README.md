@@ -122,8 +122,9 @@ The project provided practical experience with Python and Pygame while exploring
 Nebula was developed collaboratively as a student project.
 
 - Arthur Franklin
-- Bruno Lopes
-- David
+- Diana Drischel
+- Euclides Rodrigues
+- Leandro Valle
 
 ---
 
