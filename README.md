@@ -1,113 +1,130 @@
-# 🎮 Nebula
+# Nebula
 
-Projeto acadêmico desenvolvido em equipe durante o curso Técnico em Desenvolvimento de Sistemas no SENAI, utilizando Python e Pygame para criação de um minigame educacional baseado em perguntas e respostas.
+Educational minigame built with Python and Pygame as an academic team project during the SENAI Technical Systems Development course.
 
-O projeto foi concebido com o objetivo de aplicar conceitos de programação, lógica de desenvolvimento e construção de interfaces gráficas em Python de forma prática e interativa.
+<p align="center">
+  <img src="docs/nebula-preview.png" alt="Nebula game menu" width="100%">
+</p>
 
----
+## Overview
 
-## 📚 Contexto
+Nebula is an educational 2D minigame designed to combine basic game mechanics with introductory Python concepts.
 
-Nebula foi desenvolvido como atividade acadêmica durante a formação técnica em Desenvolvimento de Sistemas.
+The player can move through the game environment, enter an interaction area and access a dialogue containing questions about Python. Each selected question displays a corresponding educational response.
 
-O projeto combina elementos de gamificação e aprendizagem, apresentando desafios em formato de perguntas e respostas sobre conceitos de programação.
+The project was developed as a team assignment during the SENAI Technical Systems Development course, providing practical experience with Python, Pygame, event handling, sprites and interactive application development.
 
----
+## Features
 
-## 🎯 Objetivo
+- Interactive start menu
+- 2D player movement
+- Keyboard-based interaction system
+- Question-and-answer dialogue
+- Mouse-based option selection
+- Educational content about Python
+- Sprite and image rendering with Pygame
+- Frame-rate controlled game loop
 
-Desenvolver uma aplicação interativa capaz de:
+## Gameplay
 
-* Aplicar conceitos fundamentais de programação em Python;
-* Explorar o desenvolvimento de interfaces gráficas com Pygame;
-* Implementar lógica de navegação entre telas;
-* Criar uma experiência educacional baseada em gamificação.
+After starting the game from the main menu, the player can navigate through the environment and approach the interaction area.
 
----
+When the player reaches the interaction zone, pressing `E` opens a list of questions about Python. Questions can then be selected with the mouse, and the corresponding answer is displayed in the game.
 
-## ✨ Funcionalidades
+The dialogue includes topics such as Python applications, common use cases, mathematical operations and game development.
 
-* Menu inicial interativo;
-* Sistema de perguntas e respostas;
-* Navegação entre telas;
-* Interface gráfica desenvolvida com Pygame;
-* Sistema de pontuação e interação com o usuário;
-* Elementos visuais produzidos para o projeto.
+## Tech Stack
 
----
+- **Python** — game logic and application structure
+- **Pygame** — graphics, sprites, input handling and game loop
 
-## 🖥️ Tecnologias Utilizadas
-
-* Python
-* Pygame
-* Photoshop (criação de elementos visuais)
-* Programação Orientada a Objetos
-
----
-
-## 📂 Estrutura do Projeto
+## Project Structure
 
 ```text
 nebula/
-├── Projeto Nebula Minigame/
-│   ├── assets/
-│   ├── imagens/
-│   ├── sons/
-│   ├── main.py
-│   └── demais arquivos do jogo
-└── README.md
+├── data/
+│   ├── command_center.png
+│   ├── command_room.png
+│   ├── menu.png
+│   └── player.png
+├── docs/
+│   └── nebula-preview.png
+├── src/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── game.py
+│   ├── player.py
+│   └── responses.py
+├── .gitignore
+├── README.md
+├── README.pt-BR.md
+└── requirements.txt
 ```
 
----
+## Getting Started
 
-## 🚀 Como Executar
+### Requirements
 
-1. Clone o repositório:
+- Python
+- pip
+
+### Clone the repository
 
 ```bash
 git clone https://github.com/arthurcfranklin/nebula.git
-```
-
-2. Acesse o diretório do projeto:
-
-```bash
 cd nebula
 ```
 
-3. Instale as dependências:
+### Create a virtual environment
+
+Linux/macOS:
 
 ```bash
-pip install pygame
+python -m venv .venv
+source .venv/bin/activate
 ```
 
-4. Execute a aplicação:
+Windows:
+
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+```
+
+### Install the dependencies
 
 ```bash
-python main.py
+python -m pip install -r requirements.txt
 ```
 
+### Run the game
+
+```bash
+python -m src.game
+```
+
+## Controls
+
+| Input | Action |
+| --- | --- |
+| `W` `A` `S` `D` | Move the player |
+| `E` | Interact when inside the interaction area |
+| Mouse | Select dialogue options |
+
+## Academic Context
+
+Nebula was developed as an academic team project during the SENAI Technical Systems Development course.
+
+The project provided practical experience with Python and Pygame while exploring fundamental concepts such as object-oriented programming, event handling, player movement, sprites, proximity-based interaction and interactive user interfaces.
+
+## Team
+
+Nebula was developed collaboratively as a student project.
+
+- Arthur Franklin
+- Bruno Lopes
+- David
+
 ---
 
-## 🧠 Conceitos Aplicados
-
-* Lógica de Programação
-* Estruturas Condicionais
-* Estruturas de Repetição
-* Manipulação de Eventos
-* Desenvolvimento de Jogos 2D
-* Programação Orientada a Objetos
-* Interfaces Gráficas
-
----
-
-## 👥 Equipe
-
-Projeto desenvolvido em equipe durante o curso Técnico em Desenvolvimento de Sistemas no SENAI.
-
-Contribuidores registrados no repositório participaram do desenvolvimento da aplicação e dos recursos utilizados no projeto.
-
----
-
-## 📄 Sobre o Projeto
-
-Nebula representa uma das primeiras experiências práticas com desenvolvimento de aplicações gráficas em Python, servindo como marco da evolução acadêmica e técnica durante a formação em Desenvolvimento de Sistemas.
+Developed as an academic project · [Português](README.pt-BR.md)
